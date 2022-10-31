@@ -1,0 +1,277 @@
+.combo-menu .combo-container .combo-row .col3-pizza .combo-card {
+  width: 20%;
+  border: 0px;
+  transition: all 0.3s;
+}
+
+.combo-menu .combo-container .combo-row .col3-pizza .combo-card img {
+  transition: all 0.5s;
+}
+
+.combo-menu .combo-container .combo-row .col3-pizza .combo-card:hover .choose-btn {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+
+.combo-menu .combo-container .combo-row .col3-pizza .combo-card:hover .icon-zoom {
+  opacity: 100%;
+}
+
+.combo-menu .combo-container .combo-row .col3-pizza .price {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-card {
+  width: 20%;
+  border: 0px;
+  transition: all 0.3s;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-card img {
+  transition: all 0.5s;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-card:hover .choose-btn {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-card:hover .icon-zoom {
+  opacity: 100%;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-price .price {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#salad-menu .salad-container .salad-row .col3-salad .salad-price .salad-size {
+  font-size: 12px;
+  position: absolute;
+  left: 107px;
+  bottom: 48px;
+}
+
+#pasta-menu .pasta-container .pasta-row .col3-pasta .pasta-card {
+  width: 20%;
+  border: 0px;
+  transition: all 0.3s;
+}
+
+#pasta-menu .pasta-container .pasta-row .col3-pasta .pasta-card img {
+  transition: all 0.5s;
+}
+
+#pasta-menu .pasta-container .pasta-row .col3-pasta .pasta-card:hover .choose-btn {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+
+#pasta-menu .pasta-container .pasta-row .col3-pasta .pasta-card:hover .icon-zoom {
+  opacity: 100%;
+}
+
+#pasta-menu .pasta-container .pasta-row .col3-pasta .pasta-price .price {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#soup-menu .soup-container .soup-row .col3-soup .soup-card {
+  width: 20%;
+  border: 0px;
+  transition: all 0.3s;
+}
+
+#soup-menu .soup-container .soup-row .col3-soup .soup-card img {
+  transition: all 0.5s;
+}
+
+#soup-menu .soup-container .soup-row .col3-soup .soup-card:hover .choose-btn {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+
+#soup-menu .soup-container .soup-row .col3-soup .soup-card:hover .icon-zoom {
+  opacity: 100%;
+}
+
+#soup-menu .soup-container .soup-row .col3-soup .soup-price .price {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#soup-menu .soup-container .soup-row .col3-soup .soup-price .soup-size {
+  font-size: 12px;
+  position: absolute;
+  left: 107px;
+  bottom: 48px;
+}
+
+#snack-menu .snack-container .snack-row .col3-snack .snack-card {
+  width: 20%;
+  border: 0px;
+  transition: all 0.3s;
+}
+
+#snack-menu .snack-container .snack-row .col3-snack .snack-card img {
+  transition: all 0.5s;
+}
+
+#snack-menu .snack-container .snack-row .col3-snack .snack-card:hover .choose-btn {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+
+#snack-menu .snack-container .snack-row .col3-snack .snack-card:hover .icon-zoom {
+  opacity: 100%;
+}
+
+#snack-menu .snack-container .snack-row .col3-snack .snack-price .price {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#souces-menu .souces-container .souces-row .col3-souces .souces-card {
+  width: 20%;
+  border: 0px;
+  transition: all 0.3s;
+}
+
+#souces-menu .souces-container .souces-row .col3-souces .souces-card img {
+  transition: all 0.5s;
+}
+
+#souces-menu .souces-container .souces-row .col3-souces .souces-card:hover .choose-btn {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+
+#souces-menu .souces-container .souces-row .col3-souces .souces-card:hover .icon-zoom {
+  opacity: 100%;
+}
+
+#souces-menu .souces-container .souces-row .col3-souces .souces-price .price {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#deserts-menu .desert-container .desert-row .col3-desert .desert-card {
+  width: 20%;
+  border: 0px;
+  transition: all 0.3s;
+}
+
+#deserts-menu .desert-container .desert-row .col3-desert .desert-card img {
+  transition: all 0.5s;
+}
+
+#deserts-menu .desert-container .desert-row .col3-desert .desert-card:hover .choose-btn {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+
+#deserts-menu .desert-container .desert-row .col3-desert .desert-card:hover .icon-zoom {
+  opacity: 100%;
+}
+
+#deserts-menu .desert-container .desert-row .col3-desert .desert-price .price {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.drink-container .drink-row .col3-drink .drink-card {
+  width: 20%;
+  border: 0px;
+  transition: all 0.3s;
+}
+
+.drink-container .drink-row .col3-drink .drink-card img {
+  transition: all 0.5s;
+}
+
+.drink-container .drink-row .col3-drink .drink-card:hover .choose-btn {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+
+.drink-container .drink-row .col3-drink .drink-card:hover .icon-zoom {
+  opacity: 100%;
+}
+
+.drink-container .drink-row .col3-drink .drink-price .price {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.drink-container .drink-row .col3-drink .drink-price .drink-size {
+  font-size: 12px;
+  position: absolute;
+  left: 107px;
+  bottom: 48px;
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.search-btn {
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: #0b7dda;
+}
+
+.choose-btn {
+  display: block;
+  width: 240px;
+  height: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.232);
+  border-radius: 10px;
+  background-color: white;
+  color: grey;
+  font-size: 13px;
+  transition: all 0.3s;
+}
+
+.icon-zoom {
+  position: absolute;
+  left: 76px;
+  top: 75px;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.534);
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.icon-zoom .zoom {
+  position: absolute;
+  left: 53px;
+  top: 53px;
+  font-size: 26px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

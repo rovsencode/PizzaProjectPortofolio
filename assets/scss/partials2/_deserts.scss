@@ -1,0 +1,33 @@
+#deserts-menu {
+    .desert-container {
+        .desert-row {
+            .col3-desert {
+                .desert-card {
+                    @include card;
+
+
+                    img {
+                        transition: all 0.5s;
+                    }
+                }
+
+                .desert-card:hover {
+                    .choose-btn {
+                        @include hover-btn;
+                    }
+
+                    .icon-zoom {
+                        @include icon-hover;
+                    }
+                }
+
+                .desert-price {
+                    .price {
+                        @include price;
+                    }
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+#pizzas{
+    .title{
+        display: inline-block;
+        position: relative;
+        left: 10%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .d-none{
+        display: none;
+    }
+    .price{
+        display: inline-block;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .choose-btn{
+        display: block;
+        width: 200px;
+        height: 40px;
+        border: 1px solid rgba(128, 128, 128, 0.232);
+        border-radius: 10px;
+        background-color: white;
+        color: grey;
+        font-size: 13px;
+        transition: all 0.3s;
+    }
+    .product-info{
+        max-width: 300px;
+        font-size: 12px;
+    }
+    .pizza-card{
+        width: 20%;
+        border: 0px;
+        transition: all 0.3s;
+        
+    }
+    .choose-btn{
+        transition: all 0.3s;
+    }
+    .icon-zoom{
+        position: absolute;
+        left: 53px;
+        top: 50px;
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        background-color: rgba(0, 0, 0, 0.534);
+        transition: all 0.3s;
+        opacity: 0;
+        .zoom{
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            font-size: 26px;
+            color: white;
+            
+        }
+    }
+    .pizza-card:hover{
+        .choose-btn{
+            background-color: rgba(255, 0, 0, 0.885);
+            color: white;
+        }
+        .icon-zoom{
+            opacity: 100%;
+        }
+    }
+    .pizza-card{
+        color: red($color: #000000);
+    }
+}
+

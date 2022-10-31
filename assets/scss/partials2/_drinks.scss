@@ -1,0 +1,37 @@
+// #drinks-menu {
+    .drink-container {
+        .drink-row {
+            .col3-drink {
+                .drink-card {
+                    @include card;
+
+
+                    img {
+                        transition: all 0.5s;
+                    }
+                }
+
+                .drink-card:hover {
+                    .choose-btn {
+                        @include hover-btn;
+                    }
+
+                    .icon-zoom {
+                        @include icon-hover;
+                    }
+                }
+
+                .drink-price {
+                    .price {
+                        @include price;
+                    }
+                    .drink-size{
+                        @include gr-size;
+                    }
+                    
+
+                }
+            }
+        }
+    }
+// }

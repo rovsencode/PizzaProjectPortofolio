@@ -1,0 +1,26 @@
+    @mixin price {
+        display: inline-block;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    @mixin card {
+         width: 20%;
+         border: 0px;
+        transition: all 0.3s;
+        
+    }
+
+    @mixin hover-btn {
+        background-color: rgba(255, 0, 0, 0.885);
+            color: white;
+    }
+    @mixin icon-hover {
+        opacity: 100%;
+    }          
+    @mixin  gr-size {
+        font-size: 12px;
+        position: absolute;
+        left: 107px;
+        bottom: 48px;
+        
+    }

@@ -1,0 +1,33 @@
+#souces-menu {
+    .souces-container {
+        .souces-row {
+            .col3-souces {
+                .souces-card {
+                    @include card;
+                    
+
+                    img {
+                        transition: all 0.5s;
+                    }
+                }
+
+                .souces-card:hover {
+                    .choose-btn {
+                        @include hover-btn;
+                    }
+
+                    .icon-zoom {
+                        @include icon-hover;
+                    }
+                }
+
+                .souces-price {
+                    .price {
+                        @include price;
+                    }
+
+                }
+            }
+        }
+    }
+}

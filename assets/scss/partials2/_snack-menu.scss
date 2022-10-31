@@ -1,0 +1,29 @@
+#snack-menu {
+    .snack-container {
+        .snack-row {
+            .col3-snack {
+            .snack-card {
+                    @include card;
+            
+                    img {
+                        transition: all 0.5s;
+                    }
+                }        
+                .snack-card:hover {
+                    .choose-btn {
+                        @include hover-btn;
+                    }
+            
+                    .icon-zoom {
+                        @include icon-hover;
+                    }
+                }
+                    .snack-price {
+                        .price{
+                            @include price;
+                        }
+                    }
+                }
+            }
+        }
+    }

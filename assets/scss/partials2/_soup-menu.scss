@@ -1,0 +1,30 @@
+#soup-menu {
+    .soup-container {
+        .soup-row {
+            .col3-soup {
+            .soup-card {
+                    @include card;        
+                    img {
+                        transition: all 0.5s;
+                    }
+                }
+                .soup-card:hover {
+                    .choose-btn {
+                        @include hover-btn;
+                    }
+                    .icon-zoom {
+                        @include icon-hover;
+                    }
+                }
+                    .soup-price {
+                       .price{
+                        @include price;
+                       }
+                        .soup-size {
+                            @include gr-size;
+                        }
+                    }               
+            }
+        }
+    }
+}

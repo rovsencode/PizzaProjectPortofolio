@@ -1,0 +1,35 @@
+#salad-menu {
+    .salad-container {
+        .salad-row {
+            .col3-salad {
+                .salad-card {
+                        @include card;
+                
+                        img {
+                            transition: all 0.5s;
+                        }
+                    }
+                
+                    .salad-card:hover {
+                        .choose-btn {
+                            @include hover-btn;
+                        }
+                
+                        .icon-zoom {
+                            @include icon-hover;
+                        }
+                    }
+                   
+                    .salad-price {
+                        .price {
+                                @include price;
+                            }
+                        .salad-size{
+                        @include gr-size;
+                        }
+                    }
+                
+            }
+        }
+    }
+}
