@@ -1,0 +1,516 @@
+#pizzas {
+  margin-top: 20px;
+}
+#pizzas .title {
+  display: inline-block;
+  position: relative;
+  left: 10%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#pizzas .d-none {
+  display: none;
+}
+#pizzas .price {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+#pizzas .choose-btn {
+  display: block;
+  width: 200px;
+  height: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.232);
+  border-radius: 10px;
+  background-color: white;
+  color: grey;
+  font-size: 13px;
+  transition: all 0.3s;
+}
+#pizzas .product-info {
+  max-width: 300px;
+  font-size: 12px;
+}
+#pizzas .pizza-card {
+  width: 20%;
+  border: 0px;
+  transition: all 0.3s;
+}
+#pizzas .choose-btn {
+  transition: all 0.3s;
+}
+#pizzas .icon-zoom {
+  position: absolute;
+  left: 53px;
+  top: 50px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.534);
+  transition: all 0.3s;
+  opacity: 0;
+}
+#pizzas .icon-zoom .zoom {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  font-size: 26px;
+  color: white;
+}
+#pizzas .pizza-card:hover .choose-btn {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+#pizzas .pizza-card:hover .icon-zoom {
+  opacity: 100%;
+}
+#pizzas .pizza-card {
+  color: 0;
+}
+#pizzas .popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.389);
+  display: none;
+}
+#pizzas .inner {
+  margin: 0 auto;
+  position: relative;
+  top: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pizzas .inner img {
+  border: 5px solid black;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  #pizzas .pizza {
+    width: 33%;
+  }
+}
+@media only screen and (max-width: 670px) {
+  #pizzas .pizza {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #pizzas .pizza {
+    position: relative;
+    left: 26%;
+    width: 100%;
+  }
+}
+#filters .basket-btn {
+  position: relative;
+  left: 80%;
+  top: 30px;
+  width: 50px;
+  border-radius: 36%;
+  background-color: white;
+  color: grey;
+  border: 1px solid rgba(128, 128, 128, 0.285);
+  transition: all 0.3s;
+}
+#filters .basket-btn:hover {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+
+.container-fluid {
+  background: rgb(54, 51, 51);
+  height: 204px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#Footer a p {
+  color: white;
+  font-size: 14px;
+  list-style-type: none;
+}
+#Footer a p:hover {
+  color: red;
+}
+
+.col-4 {
+  margin-top: 30px;
+}
+
+.social-icons-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.about-us-footer {
+  display: flex;
+  justify-content: center;
+}
+.about-us-footer ul li a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-email a {
+  color: white;
+}
+.footer-email a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.logo a img {
+  width: 190px;
+  height: 32px;
+}
+
+.header-top {
+  padding: 30px;
+  margin-left: 60px;
+}
+
+.logo-1415 img {
+  height: 18px;
+  position: relative;
+  top: -4px;
+  right: 13px;
+}
+
+.logo-24 img {
+  height: 27px;
+  position: relative;
+  top: 1px;
+  right: 0;
+}
+
+.logo-flag {
+  width: 50px;
+  height: 20px;
+  margin-top: -10px;
+}
+
+.phone {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+.header-top-hr {
+  margin-top: -10px;
+}
+
+.scrollLink {
+  text-decoration: none;
+}
+
+.font-fix {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  color: black;
+  margin-left: 55px;
+  font-size: 15px;
+}
+
+.header-bootom-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a p {
+  color: black;
+}
+
+a p:hover {
+  color: red;
+}
+
+.loginBtn {
+  background: rgb(251, 122, 9);
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 20%;
+  color: white;
+  font-size: 20px;
+}
+.loginBtn:hover {
+  background-color: red;
+}
+
+.logoutBtn {
+  background: rgb(4, 134, 247);
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 20%;
+  color: white;
+  font-size: 20px;
+}
+.logoutBtn:hover {
+  background-color: rgb(38, 0, 255);
+}
+
+#slider-section .slider {
+  display: flex;
+  min-width: 1272px;
+  min-height: 400px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#slider-section .slider .inner {
+  width: 1110px;
+  height: 400px;
+}
+#slider-section .slider img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+#slider-section .slider .arrows {
+  display: flex;
+  font-size: 50px;
+}
+#slider-section .slider .prev {
+  display: flex;
+  justify-content: start;
+  min-width: 37.5px;
+  min-height: 50.4px;
+  color: orange;
+  cursor: pointer;
+}
+#slider-section .slider .prev:active {
+  color: black;
+}
+#slider-section .slider .next {
+  min-width: 37.5px;
+  min-height: 50.4px;
+  display: flex;
+  justify-content: end;
+  color: orange;
+  cursor: pointer;
+}
+#slider-section .slider .next:active {
+  color: black;
+}
+@media (min-width: 767px) {
+  #slider-section .slider {
+    width: 100%;
+  }
+}
+
+#order-register {
+  margin-bottom: 30px;
+}
+#order-register .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#order-register .title {
+  width: 100%;
+  margin-top: 100px;
+}
+#order-register .title h1 {
+  text-align: center;
+}
+#order-register .row {
+  width: 600px;
+}
+#order-register .address-of-user {
+  width: 70%;
+}
+#order-register input {
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#order-register input[type=radio] {
+  accent-color: red;
+}
+#order-register input:focus {
+  border-bottom: 1px solid red;
+}
+#order-register label {
+  margin-top: 10px;
+}
+#order-register .name-of-user {
+  width: 40%;
+}
+#order-register .number-of-user {
+  width: 40%;
+}
+#order-register .card-method {
+  margin-bottom: 50px;
+}
+#order-register .order-pizza {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+}
+@media (min-width: 360px) {
+  #order-register .title h1 {
+    width: 100%;
+  }
+  #order-register form {
+    width: 100%;
+  }
+  #order-register .name-of-user {
+    width: 100%;
+  }
+  #order-register .number-of-user {
+    width: 83%;
+  }
+  #order-register .address-of-user {
+    width: 100%;
+  }
+}
+@media (min-width: 767px) {
+  #order-register .title h1 {
+    width: 100%;
+  }
+  #order-register form {
+    width: 100%;
+  }
+}
+
+#basket {
+  margin-top: 20px;
+}
+#basket .title {
+  display: inline-block;
+  position: relative;
+  left: 10%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#basket .price {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+#basket .product-info {
+  max-width: 300px;
+  font-size: 12px;
+}
+#basket .pizza-card {
+  width: 20%;
+  border: 0px;
+  transition: all 0.3s;
+}
+#basket .icon-zoom {
+  position: absolute;
+  left: 53px;
+  top: 50px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.534);
+  transition: all 0.3s;
+  opacity: 0;
+}
+#basket .icon-zoom .zoom {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  font-size: 26px;
+  color: white;
+}
+#basket .pizza-card:hover .choose-btn {
+  background-color: rgba(255, 0, 0, 0.885);
+  color: white;
+}
+#basket .pizza-card:hover .icon-zoom {
+  opacity: 100%;
+}
+#basket .pizza-card {
+  color: 0;
+}
+#basket .menu-btn {
+  display: inline;
+  position: relative;
+  width: 130px;
+  left: 90%;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.244);
+  background-color: white;
+  color: grey;
+  transition: all 0.3s;
+}
+#basket .finish-order button {
+  width: 130px;
+  position: relative;
+  left: 90%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.244);
+  background-color: white;
+  color: grey;
+  transition: all 0.3s;
+}
+#basket .finish-btn:hover, #basket .menu-btn:hover, #basket .remove-btn:hover {
+  color: white;
+  background-color: red;
+}
+#basket .remove-btn {
+  border-radius: 40%;
+  margin-left: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.244);
+  transition: all 0.3s;
+}
+#basket .total-price {
+  display: inline-block;
+  position: relative;
+  left: 10%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#basket .total-price h4 {
+  display: inline;
+}/*# sourceMappingURL=style.css.map */
+    #search-input {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid red;
+      float: left;
+      width: 80%;
+      background: #f1f1f1;
+    }
+  
+    .search-btn {
+      width: 20%;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+  
+    .search-btn:hover {
+      background: orange;
+    }

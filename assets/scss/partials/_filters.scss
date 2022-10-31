@@ -1,0 +1,19 @@
+#filters{
+    .basket-btn{
+        position: relative;
+        left: 80%;
+        top: 30px;
+        width: 50px;
+        border-radius: 36%;
+        background-color: white;
+        color: grey;
+        border: 1px solid rgba(128, 128, 128, 0.285);
+        transition: all 0.3s;
+        
+    }
+    .basket-btn:hover{
+        background-color: rgba(255, 0, 0, 0.885);
+        color: white;
+    }
+
+}

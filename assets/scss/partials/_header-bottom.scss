@@ -1,0 +1,52 @@
+.scrollLink {
+  text-decoration: none;
+}
+.font-fix {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  color: black;
+  margin-left: 55px;
+  font-size: 15px;
+}
+.header-bootom-nav {
+  display: flex;
+  justify-content: space-between;
+}
+// .fa-solid {
+//   font-size: 30px;
+//   color: rgba(0, 0, 0, 0.155);
+// }
+a p {
+  color: black;
+}
+a p:hover {
+  color: red;
+      }
+.loginBtn{
+    background: rgb(251, 122, 9);
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 20%;
+    color: white  ;
+    font-size: 20px;
+
+      &:hover{
+        background-color: red;
+      }
+}
+.logoutBtn{ 
+  background: rgb(4, 134, 247);
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 20%;
+  color: white  ;
+  font-size: 20px;
+
+    &:hover{
+    background-color: rgb(38, 0, 255);
+  }
+
+}

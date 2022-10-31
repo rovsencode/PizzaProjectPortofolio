@@ -1,0 +1,85 @@
+#order-register {
+  margin-bottom: 30px;
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .title {
+    width: 100%;
+    margin-top: 100px;
+    h1 {
+      text-align: center;
+    }
+  }
+  .row {
+    width: 600px;
+  }
+  .address-of-user {
+    width: 70%;
+  }
+  input {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  input[type="radio"] {
+    accent-color: red;
+  }
+  input:focus {
+    border-bottom: 1px solid red;
+  }
+  label {
+    margin-top: 10px;
+  }
+  .name-of-user {
+    width: 40%;
+  }
+  .number-of-user {
+    width: 40%;
+  }
+  .card-method {
+    margin-bottom: 50px;
+  }
+  .order-pizza {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+  }
+  @media (min-width: 360px) {
+    .title {
+      h1 {
+        width: 100%;
+      }
+    }
+    form {
+      width: 100%;
+    }
+    .name-of-user {
+      width: 100%;
+    }
+    .number-of-user {
+      width: 83%;
+    }
+    .address-of-user {
+      width: 100%;
+    }
+  }
+  @media (min-width: 767px) {
+    .title {
+      h1 {
+        width: 100%;
+      }
+    }
+    form {
+      width: 100%;
+    }
+  }
+}

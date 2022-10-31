@@ -1,0 +1,44 @@
+.container-fluid {
+  background: rgb(54, 51, 51);
+  height: 204px;
+  margin-left: auto;
+  margin-right: 0;
+
+}
+#Footer a p {
+  color: white;
+  font-size: 14px;
+  list-style-type: none;
+ &:hover {
+    color: red;
+}
+}
+.col-4 {
+  margin-top: 30px; 
+}
+.social-icons-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.about-us-footer {
+  display: flex;
+  justify-content: center;
+  ul li a{
+    text-decoration: none;
+    list-style-type: none;
+  }
+}
+
+.footer-email a {
+  color: white;
+  &:hover {
+    text-decoration: none;
+    color: red;
+  }
+}
